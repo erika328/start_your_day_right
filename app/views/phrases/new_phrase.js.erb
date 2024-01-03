@@ -1,0 +1,8 @@
+// 新しい英文と日本語のテキストを更新
+document.getElementById('english-text').textContent = '<%= escape_javascript(@phrase.english_text) %>';
+document.getElementById('japanese-text').textContent = '<%= escape_javascript(@phrase.japanese_text) %>';
+document.getElementById('japanese-text').style.display = 'none';
+
+// Twitterシェアリンクの更新
+var twitterLink = "https://twitter.com/share?url=<%= request.original_url %>&text=<%= CGI.escape('今日のポジティブ英文: ' + @phrase.english_text) %>";
+document.querySelector('.twitter a').setAttribute('href', twitterLink);
