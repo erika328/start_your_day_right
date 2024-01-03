@@ -1,7 +1,6 @@
 phrases = [
   { english_text: "You have to believe in yourself when no one else does.", japanese_text: "誰一人信じなくともあなたがあなた自身を信じなくちゃ。" },
   { english_text: "When you have a dream, you've got to grab it and never let go.", japanese_text: "夢があるなら、掴みとって絶対に離さないこと。" },
-  { english_text: "The most important thing is to enjoy your life—to be happy—it's all that matters.", japanese_text: "人生を楽しむ上で何より大切なことーそれは幸せを感じること。それが全て。" },
   { english_text: "It's gonna be an amazing day today!", japanese_text: "今日は最高の日になるよ！"},
   { english_text: "Keep smiling, because life is a beautiful thing and there's so much to smile about.", japanese_text: "笑って。人生は美しいもので、あなたを笑顔にするものがたくさんあるから。"},
   { english_text: "Be persistent and never give up hope.", japanese_text: "粘り強く、希望を決して捨てないでいて。"},
