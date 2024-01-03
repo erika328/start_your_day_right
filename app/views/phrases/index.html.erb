@@ -1,0 +1,35 @@
+<h1>Start your day right</h1>
+<p>ポジティブな英文を読んで気持ちよく1日をスタートしよう</p>
+
+<!-- 新しいボタンの追加 -->
+<button id="show-phrase">今日のポジティブ英文を見る</button>
+
+<div id="phrase" style="display:none;">
+  <p id="english-text"><%= @phrase.english_text %></p>
+  <button id="show-japanese">日本語を見る</button>
+  <p id="japanese-text" style="display:none;"><%= @phrase.japanese_text %></p>
+</div>
+
+<!-- 新しい英文を表示するボタン（初期状態は非表示） -->
+<button id="load-new-phrase" style="display:none;">他の英文も見る</button>
+
+<!-- Twitterシェアボタン（初期状態は非表示） -->
+<div class="twitter" style="display:none;">
+  <%= link_to "https://twitter.com/share?url=#{request.original_url}&text=#{CGI.escape('今日のポジティブ英文: ' + @phrase.english_text)}", target: '_blank', data: { toggle: "tooltip", placement: "bottom" }, title: "Twitterでシェア" do %>
+    <i class="fab fa-twitter"></i>
+  <% end %>
+</div>
+
+<script>
+  // 英文を表示するボタンのイベントハンドラ
+  document.getElementById('show-phrase').addEventListener('click', function() {
+    document.getElementById('phrase').style.display = 'block';
+    // シェアボタンも表示
+    document.querySelector('.twitter').style.display = 'block';
+  });
+
+  // 日本語を表示するボタンのイベントハンドラ
+  document.getElementById('show-japanese').addEventListener('click', function() {
+    document.getElementById('japanese-text').style.display = 'block';
+  });
+</script>
