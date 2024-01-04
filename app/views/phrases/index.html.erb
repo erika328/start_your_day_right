@@ -1,35 +1,52 @@
-<h1>Start your day right</h1>
-<p>ポジティブな英文を読んで気持ちよく1日をスタートしよう</p>
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Start Your Day Right</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <main>
+      <div class="header container d-flex flex-column align-items-center fixed-top">
+        <h1>Start Your Day Right</h1>
+        <p>ポジティブな英文を読んで気持ちよく1日をスタートしよう</p>
+      </div>
+      <div class="phrase d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+      <span class="custom-background">
+        <button id="show-phrase" class="btn btn-secondary mb-2">今日のポジティブ英文を見る</button>
+        <div id="phrase" class="text-center" style="display:none;">
+          <p id="english-text"><%= @phrase.english_text %></p>
+          <p id="japanese-text" style="display:none;"><%= @phrase.japanese_text %></p>
+          <button id="show-japanese" class="btn btn-secondary mb-2">日本語を見る</button>
+        </div>
+        <div class="btn twitter text-center" style="display:none;">
+          <%= link_to "https://twitter.com/share?url=#{request.original_url}&text=#{CGI.escape('今日のポジティブ英文: ' + @phrase.english_text)}", target: '_blank', class: "btn btn-info" do %>
+            <i class="fab fa-twitter"></i> Xでシェア
+          <% end %>
+        </div>
+      </span>
+      </div>
+      
+    </main>
 
-<!-- 新しいボタンの追加 -->
-<button id="show-phrase">今日のポジティブ英文を見る</button>
+    <script>
+      // 英文を表示するボタンのイベントハンドラ
+      document.getElementById('show-phrase').addEventListener('click', function() {
+        // フレーズを表示
+        document.getElementById('phrase').style.display = 'block';
+        // シェアボタンを表示
+        document.querySelector('.twitter').style.display = 'block';
+        // 「今日のポジティブ英文を見る」ボタンを非表示にする
+        this.style.display = 'none';
+      });
 
-<div id="phrase" style="display:none;">
-  <p id="english-text"><%= @phrase.english_text %></p>
-  <button id="show-japanese">日本語を見る</button>
-  <p id="japanese-text" style="display:none;"><%= @phrase.japanese_text %></p>
-</div>
-
-<!-- 新しい英文を表示するボタン（初期状態は非表示） -->
-<button id="load-new-phrase" style="display:none;">他の英文も見る</button>
-
-<!-- Twitterシェアボタン（初期状態は非表示） -->
-<div class="twitter" style="display:none;">
-  <%= link_to "https://twitter.com/share?url=#{request.original_url}&text=#{CGI.escape('今日のポジティブ英文: ' + @phrase.english_text)}", target: '_blank', data: { toggle: "tooltip", placement: "bottom" }, title: "Twitterでシェア" do %>
-    <i class="fab fa-twitter"></i>
-  <% end %>
-</div>
-
-<script>
-  // 英文を表示するボタンのイベントハンドラ
-  document.getElementById('show-phrase').addEventListener('click', function() {
-    document.getElementById('phrase').style.display = 'block';
-    // シェアボタンも表示
-    document.querySelector('.twitter').style.display = 'block';
-  });
-
-  // 日本語を表示するボタンのイベントハンドラ
-  document.getElementById('show-japanese').addEventListener('click', function() {
-    document.getElementById('japanese-text').style.display = 'block';
-  });
-</script>
+      // 日本語を表示するボタンのイベントハンドラ
+      document.getElementById('show-japanese').addEventListener('click', function() {
+        document.getElementById('japanese-text').style.display = 'block';
+        this.style.display = 'none';
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
