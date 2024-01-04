@@ -1,1 +1,45 @@
 @import "bootstrap";
+
+body {
+  background-image: asset-url('background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header {
+  padding-top: 20px;
+}
+
+.custom-background {
+  background-color: rgba(255, 255, 255, 0.673);
+  display: inline-block;
+}
+
+.header h1 {
+  font-family: 'Rochester', cursive;
+  font-weight: bold;
+}
+
+.header p {
+  font-family: 'Yomogi', cursive;
+  font-weight: bold;
+}
+
+#english-text {
+  font-family: 'Rochester', cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#japanese-text {
+  font-family: 'Yomogi', cursive;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.btn {
+  font-family: 'Yomogi', cursive;
+  font-weight: bold;
+}
