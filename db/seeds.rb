@@ -22,7 +22,13 @@ phrases = [
   { english_text: "You don't learn to walk by following rules. You learn by doing, and by falling over.", japanese_text: "赤ん坊はルールを守りながら歩き方を学ぶわけじゃない。挑戦して、失敗しながら学ぶんだ。"},
   { english_text: "The sky is the limit.", japanese_text: "限界なんてないよ。"},
   { english_text: "Keep pushing. I know you can do it.", japanese_text: "頑張って。あなたならできる。"},
-  { english_text: "Don't start tomorrow. Start today.", japanese_text: "明日からじゃなくて今日やろう。"}
+  { english_text: "Don't start tomorrow. Start today.", japanese_text: "明日からじゃなくて今日やろう。"},
+  { english_text: "Smile. You are beautiful as you are.", japanese_text: "笑って。あなたはそのままで素敵だよ。"},
+  { english_text: "Everything is gonna be alright. Don't worry anything.", japanese_text: "全てうまくいくよ。何も心配しないで。"},
+  { english_text: "Good job for waking up today. You are doing great already!", japanese_text: "起きられてえらい。あなたは既にがんばってる！"},
+  { english_text: "You do not need to compare yourself to other people. It's always you vs you.", japanese_text: "自分を他と比べる必要なんてない。いつも自分対自分。"},
+  { english_text: "If you need to rest, just rest. It's okay to rest.", japanese_text: "休養が必要なら休みなさい。休んだっていいんだよ。"},
+  { english_text: "Did you know that you're loved?", japanese_text: "あなたは愛されているって知ってた？"}
 ]
 
 # それぞれのフレーズをデータベースに追加
