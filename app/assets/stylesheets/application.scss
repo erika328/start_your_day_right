@@ -9,11 +9,11 @@ body {
 }
 
 .header {
-  padding-top: 20px;
+  padding: 20px;
 }
 
 .custom-background {
-  background-color: rgba(255, 255, 255, 0.673);
+  background-color: rgba(255, 255, 255, 0.377);
   display: inline-block;
 }
 
@@ -46,8 +46,8 @@ body {
 
 .home-icon {
   position: fixed;
-  top: 10px;
-  left: 10px;
+  top: 20px;
+  left: 20px;
   z-index: 1000; /* Ensures the icon stays above other content */
 }
 
