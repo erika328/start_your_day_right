@@ -28,18 +28,36 @@ body {
 }
 
 #english-text {
-  font-family: 'Rochester', cursive;
+  font-family: 'Kalam', cursive;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 #japanese-text {
   font-family: 'Yomogi', cursive;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 16px;
 }
 
-.btn {
+#show-phrase, #speak-english, #show-japanese, #twitter {
   font-family: 'Yomogi', cursive;
   font-weight: bold;
 }
+
+.home-icon {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000; /* Ensures the icon stays above other content */
+}
+
+.home-icon a {
+  color: #000; /* Or any color you prefer */
+  font-size: 24px; /* Adjust size as needed */
+  text-decoration: none; /* Removes underline from the link */
+}
+
+.home-icon a:hover {
+  color: #555; /* Color when hovered (optional) */
+}
+
