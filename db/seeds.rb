@@ -28,7 +28,29 @@ phrases = [
   { english_text: "Good job for waking up today. You are doing great already!", japanese_text: "起きられてえらい。あなたは既にがんばってる！"},
   { english_text: "You do not need to compare yourself to other people. It's always you vs you.", japanese_text: "自分を他と比べる必要なんてない。いつも自分対自分。"},
   { english_text: "If you need to rest, just rest. It's okay to rest.", japanese_text: "休養が必要なら休みなさい。休んだっていいんだよ。"},
-  { english_text: "Did you know that you're loved?", japanese_text: "あなたは愛されているって知ってた？"}
+  { english_text: "Did you know that you're loved?", japanese_text: "あなたは愛されているって知ってた？"},
+  { english_text: "Don't be busy making a living that you forget to make a life. Slow down and enjoy each day.", japanese_text: "生活に追われて人生を楽しむことを忘れないで。立ち止まって、1日1日を楽しもう。"},
+  { english_text: "You only get to live once. Make it special.", japanese_text: "人生は一度きり。特別なものにしよう。"},
+  { english_text: "Don't give up without even trying.", japanese_text: "挑戦する前にあきらめないで。"},
+  { english_text: "You may not have the result you want today or tomorrow, but eventually, YOU WILL WIN.", japanese_text: "求めている結果は今日や明日じゃ手に入らないかもしれない。でもいつかはきっと、それを勝ち取ることができるよ。"},
+  { english_text: "Just be yourself. You're perfect.", japanese_text: "自分らしくいて。あなたは完璧なんだから。"},
+  { english_text: "Be strong. Be kind. Be yourself.", japanese_text: "強く、優しく、自分らしくいて。"},
+  { english_text: "Don't live in the past. Make today wonderful.", japanese_text: "過去に生きるな。今日を素晴らしいものにしよう。"},
+  { english_text: "A younger version of you is looking at you now, in proud disbelief of who you have grown into.", japanese_text: "過去のあなたが今のあなたをみたら、その成長っぷりに驚いて、誇りに思うだろう。"},
+  { english_text: "Look how far you've come. Don't give up now.", japanese_text: "あなたが歩んできた道のりの長さをみてごらんよ。今諦めないで。"},
+  { english_text: "You don't need to be someone else. Just be yourself, you are beautiful inside out.", japanese_text: "他の誰かになろうとしなくていいんだよ。あなた自身のままでいて。あなたは中身から全て美しい。"},
+  { english_text: "Nothing is impossible.", japanese_text: "不可能なことなんてない。"},
+  { english_text: "You are never too old to dream a new dream.", japanese_text: "新しい夢を持つのに歳なんて関係ないさ。"},
+  { english_text: "You are working so hard everyday.", japanese_text: "毎日がんばってるね。"},
+  { english_text: "Just don't give up trying to do what you really want to do. ", japanese_text: "本当にやりたいことに向かって挑戦することを諦めないで。"},
+  { english_text: "Do not compare yourself to someone else. Compare yourself to who you were yesterday.", japanese_text: "自分自身を他の誰かと比べるんじゃない。今日の自分を昨日の自分と比べるんだ。"},
+  { english_text: "It always seems impossible until it's done.", japanese_text: "何事もやり遂げるまでは不可能に思えるものさ。"},
+  { english_text: "Never allow a person to tell you that you can't.", japanese_text: "他人に「あなたにはできない」なんて言わせるな。"},
+  { english_text: "Keep it up! You are doing fantastic!", japanese_text: "そのまま進め！あなたは十分頑張ってる！"},
+  { english_text: "A problem is a chance for you to be stronger.", japanese_text: "ピンチは自分自身を強くするチャンスだよ。"},
+  { english_text: "Love yourself first.", japanese_text: "まず自分自身を愛しなさい。"},
+  { english_text: "Consistency is the key to success", japanese_text: "成功の鍵は継続すること。"},
+  { english_text: "Happiness is not by chance, but by choice.", japanese_text: "幸せは偶然掴むものじゃなく、選択して掴むもの。"}
 ]
 
 # それぞれのフレーズをデータベースに追加
