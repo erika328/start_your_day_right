@@ -12,11 +12,7 @@
         <h1>Start Your Day Right</h1>
         <p>ポジティブな英文を読んで<br>気持ちよく1日をスタートしよう</p>
       </div>
-      <div class="home-icon">
-        <a href="/">
-          <i class="fas fa-home"></i>
-        </a>
-      </div>
+
       <div class="phrase d-flex justify-content-center align-items-center" style="min-height: 100vh;">
         <span class="custom-background">
           <button id="show-phrase" class="btn btn-secondary mb-2">今日のポジティブ英文を見る</button>
@@ -31,6 +27,11 @@
               <i class="fab fa-twitter"></i> Xでシェア
             <% end %>
           </div>
+          <div class="home-icon text-center" style="display:none;">
+            <a href="/">
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
         </span>
       </div>
       
@@ -43,6 +44,7 @@
         document.getElementById('phrase').style.display = 'block';
         // シェアボタンを表示
         document.querySelector('.twitter').style.display = 'block';
+        document.querySelector('.home-icon').style.display = 'block';
         // 「今日のポジティブ英文を見る」ボタンを非表示にする
         this.style.display = 'none';
       });
