@@ -9,6 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Rochester&family=Rubik+Moonrocks&family=Yomogi&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Rochester&family=Rubik+Moonrocks&family=Yomogi&display=swap" rel="stylesheet">
 
+    <%= favicon_link_tag 'favicon.ico' %>
+    <!-- IOS用のファビコン -->
+    <link rel="apple-touch-icon" href="<%= asset_path('apple-touch-icon-180x180.png') %>" sizes="180x180">
+    <!-- Android用のファビコン -->
+    <link rel="icon" type="image/png" href="<%= asset_path('android-chrome-192x192.png') %>" sizes="192x192">
+
+
     <% if Rails.env.production? %>
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@Erika_jpn_328" />
