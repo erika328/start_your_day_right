@@ -23,7 +23,7 @@
             <button id="show-japanese" class="btn btn-secondary mb-2">日本語を見る</button>
           </div>
           <div id="twitter" class="btn twitter text-center" style="display:none;">
-            <%= link_to "https://twitter.com/share?url=#{request.original_url}&text=#{CGI.escape('今日のポジティブ英文: ' + @phrase.english_text)}", target: '_blank', class: "btn btn-info" do %>
+            <%= link_to "https://twitter.com/share?url=#{request.original_url}&text=#{CGI.escape(' 今日のポジティブ英文: ' + @phrase.english_text + '「' + @phrase.japanese_text + '」' )}", target: '_blank', class: "btn btn-info" do %>
               <i class="fab fa-twitter"></i> Xでシェア
             <% end %>
           </div>
