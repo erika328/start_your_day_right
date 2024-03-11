@@ -50,7 +50,30 @@ phrases = [
   { english_text: "A problem is a chance for you to be stronger.", japanese_text: "ピンチは自分自身を強くするチャンスだよ。"},
   { english_text: "Love yourself first.", japanese_text: "まず自分自身を愛しなさい。"},
   { english_text: "Consistency is the key to success", japanese_text: "成功の鍵は継続すること。"},
-  { english_text: "Happiness is not by chance, but by choice.", japanese_text: "幸せは偶然掴むものじゃなく、選択して掴むもの。"}
+  { english_text: "Happiness is not by chance, but by choice.", japanese_text: "幸せは偶然掴むものじゃなく、選択して掴むもの。"},
+  { english_text: "If you start something new, do not stop it until it's done.", japanese_text: "新しいことを始めたのなら、やり切るまで止まるんじゃない。"},
+  { english_text: "Your limitation—it's only your imagination.", japanese_text: "限界ーそれはあなたがただ想像しているだけ。"},
+  { english_text: "Push yourself, because no one else is going to do it for you.", japanese_text: "自分で自分を奮い立たせろ。他の誰もやってはくれないよ。"},
+  { english_text: "Sometimes later becomes never. Do it now.", japanese_text: "たまに「後でやる」は「一生やらない」ことになる。だから「今」やろう。"},
+  { english_text: "When you feel like quitting think about why you started.", japanese_text: "やめようかと思える時は、どうして始めたのか考えてみよう。"},
+  { english_text: "The first step to getting anywhere is deciding you're no longer willing to stay where you are.", japanese_text: "何かを成し遂げるための最初の一歩は、現状を変える決断をすること。"},
+  { english_text: "Just stick with it. What seems so hard now will one day be your warm up.", japanese_text: "ただ粘り強くいよう。今難しく思えることはいつかあなたにとって準備運動に過ぎないと感じるものとなる。"},
+  { english_text: "Everybody wants happiness, nobody wants pain, but you can't have a rainbow without a little rain.", japanese_text: "誰しもが幸せを求め、誰も痛みを求めない。でも雨なしで虹は見られないものさ。"},
+  { english_text: "If you don't sacrifice for what you want, what you want becomes the sacrifice.", japanese_text: "自分の成し遂げたいことのために犠牲を払えないのなら、成し遂げたいことそのものが犠牲となるだろう。"},
+  { english_text: "Next time you think of beautiful things, don't forget to count yourself in.", japanese_text: "次に美しいものについて考える時、自分自身を含めることを忘れないで。"},
+  { english_text: "The pain you feel today is the strength you'll feel tomorrow.", japanese_text: "今日の痛みは、明日の強みになる。"},
+  { english_text: "Slow progress is better than no progress.", japanese_text: "ゆっくりとでも前進することは、少しも進まないことよりずっといい。"},
+  { english_text: "Ask yourself if what you're doing today will get you closer to where you want to be tomorrow.", japanese_text: "今日自分がしていることで明日の自分が辿り着きたい場所に近づけられるのかを自分自身に聞いてみよう。"},
+  { english_text: "Your value doesn't decrease based on someone's inability to see your worth.", japanese_text: "あなたの価値を見抜く力のない人がいても、あなたの本当の価値がなくなるわけじゃないよ。"},
+  { english_text: "If you want a different result, make a different choice.", japanese_text: "異なる結果が欲しいなら、異なる選択をしよう。"},
+  { english_text: "Keep your face to the sunshine and you cannot see a shadow.", japanese_text: "いつも明るい方を向いていれば、影なんて見えないさ。"},
+  { english_text: "Once you replace negative thoughts with positive ones, you'll start having positive results.", japanese_text: "否定的な考えを肯定的なものに変えられたら、肯定的な結果を得られるだろう。"},
+  { english_text: "Life is better when you are laughing.", japanese_text: "笑っている時の方が人生は豊かになるよ。"},
+  { english_text: "You must take action. You must do the impossible. Because giving up is never an option.", japanese_text: "行動しなさい。不可能なことをやりなさい。諦めるという選択肢はないんだから。"},
+  { english_text: "Stop and listen to yourself. Do what your heart wants you to do.", japanese_text: "立ち止まって自分の声を聞いて。自分の心が求めていることをやろう。"},
+  { english_text: "I have no doubt that your persistence will lead you to great success.", japanese_text: "あなたの粘り強く続ける力は必ずあなたを成功へと導いてくれるよ。"},
+  { english_text: "You're doing an incredible job, and I believe in you!", japanese_text: "あなたはとっても頑張ってる。あなたならできるって信じてる！"},
+  { english_text: "You inspire others with your positivity and determination.", japanese_text: "あなたのポジティブさと頑張りは他の人にもいい影響を与えているよ。"}
 ]
 
 # それぞれのフレーズをデータベースに追加
