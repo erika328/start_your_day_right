@@ -2,10 +2,12 @@
 # exit on error
 set -o errexit
 
+# Bundle install and pristine bigdecimal gem
 bundle install
+bundle exec gem pristine bigdecimal --version 3.1.7
+
+# Precompile assets and migrate database
 bundle exec rake assets:precompile
 bundle exec rake assets:clean
-# bundle exec rake db:migrate
-
 DISABLE_DATABASE_ENVIRONMENT_CHECK=1 bundle exec rake db:migrate:reset
 bundle exec rake db:seed
