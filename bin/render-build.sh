@@ -4,7 +4,7 @@ set -o errexit
 
 # Bundle install and pristine bigdecimal gem
 bundle install
-bundle exec gem pristine bigdecimal --version 3.1.7
+bundle exec gem pristine psych --version 5.1.2
 
 # Precompile assets and migrate database
 bundle exec rake assets:precompile
