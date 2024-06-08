@@ -57,7 +57,7 @@
       document.getElementById('speak-english').addEventListener('click', function() {
         var text = document.getElementById('english-text').textContent;
         var msg = new SpeechSynthesisUtterance(text);
-        msg.lang = 'en-UK'; // 英語の発音を指定
+        msg.lang = 'en-GB'; // 英語の発音を指定
         window.speechSynthesis.speak(msg);
       });
 
