@@ -305,6 +305,7 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   pg
+  psych (= 5.1.2)
   puma (>= 5.0)
   rails (~> 7.1.2)
   selenium-webdriver
