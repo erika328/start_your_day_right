@@ -13,7 +13,7 @@ bundle config build.nokogiri --use-system-libraries
 bundle install
 
 # Ensure psych gem is pristine
-gem pristine psych --version 5.1.2
+gem pristine psych
 
 # Precompile assets and migrate database
 bundle exec rake assets:precompile
