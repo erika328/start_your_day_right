@@ -5,9 +5,8 @@ set -o errexit
 # Set the ExecJS runtime to Node
 export EXECJS_RUNTIME=Node
 
-# Install Node.js and build tools (ensure Node.js is available in your environment)
-curl -sL https://deb.nodesource.com/setup_20.x | bash -
-apt-get install -y nodejs build-essential libssl-dev libreadline-dev zlib1g-dev
+# Use Yarn to install Node.js dependencies
+yarn install
 
 # Bundle install and pristine psych gem
 bundle install
