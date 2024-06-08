@@ -8,9 +8,12 @@ export EXECJS_RUNTIME=Node
 # Use Yarn to install Node.js dependencies
 yarn install
 
-# Bundle install and pristine psych gem
+# Install gems with native extensions
+bundle config build.nokogiri --use-system-libraries
 bundle install
-bundle exec gem pristine psych --version 5.1.2
+
+# Ensure psych gem is pristine
+gem pristine psych --version 5.1.2
 
 # Precompile assets and migrate database
 bundle exec rake assets:precompile
