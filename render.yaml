@@ -1,6 +1,6 @@
 databases:
   - name: start_your_day_right
-    databaseName: start_your_day_right
+    databaseName: start_your_day_right_4o4d
     user: erika
     region: singapore
 
